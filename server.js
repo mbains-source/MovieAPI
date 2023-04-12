@@ -23,6 +23,18 @@ if (q.pathname.includes("documentation")) {
     filepath = "index.html";
 }
 
+fs.readFile(filepath, (error, data) => {
+  if (error) {
+      throw error;
+  } else {
+      res.writeHead(200, {
+          "Content-Type": "text/html"
+      });
+      res.write(data);
+      res.end();
+    }
+  });
+
 
 http.createServer((request, response) => {
   response.writeHead(200, {'Content-Type': 'text/plain'});
