@@ -240,7 +240,7 @@ app.get('/movies', (req, res) => {
 })
 
 //READ
-app.get('.movies/:title', (req, res) => {
+app.get('movies/:title', (req, res) => {
     const { title } = req.params;
     const movies = movies.find(movie => movie.Title === title);
 
@@ -295,7 +295,7 @@ app.delete('users/:id', (req, res) => {
 })
 
 //READ
-app.get('.movies/genre/:genreName', (req, res) => {
+app.get('movies/genre/:genreName', (req, res) => {
     const { genreName } = req.params;
     const genre = movies.find(movie => movie.Genre.Name === genreName).Genre;
 
@@ -308,7 +308,7 @@ app.get('.movies/genre/:genreName', (req, res) => {
 })
 
 //READ
-app.get('.movies/director/:directorName', (req, res) => {
+app.get('movies/director/:directorName', (req, res) => {
     const { directorName } = req.params;
     const director = movies.find(movie => movie.director.name === directorName).Director;
 
