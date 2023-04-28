@@ -297,7 +297,7 @@ app.delete('/users/:id', (req, res) => {
 //READ
 app.get('/movies/genre/:genreName', (req, res) => {
     const { genreName } = req.params;
-    const genre = movies.find(m => m.genre.name === genrename).genre;
+    const genre = movies.find(m => m.genre.name === genreName).genre;
 
     if (genre) {
         res.status(200).json(genre);
