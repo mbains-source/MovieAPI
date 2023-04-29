@@ -284,7 +284,7 @@ app.delete('/users/:id/:movieTitle', (req, res) => {
 app.delete('/users/:id', (req, res) => {
     const { id } = req.params;
 
-    let user = users.find(u => u.id == id);
+    let user = users.find(user => user.id == id);
 
     if (user) {
         users = users.filter(title => title != id);
