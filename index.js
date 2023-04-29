@@ -222,7 +222,7 @@ app.put('/users/:id', (req, res) => {
     const { id } = req.params;
     const updatedUser = req.body;
 
-    let user = users.find(u => u.id == id);
+    let user = users.find(user => user.id == id);
 
     if (user) {
         user.name = updated.user.name;
@@ -270,7 +270,7 @@ app.post('/users/:id/:movieTitle', (req, res) => {
 app.delete('/users/:id/:movieTitle', (req, res) => {
     const { id, movieTitle } = req.params;
 
-    let user = users.find(u => u.id == id);
+    let user = users.find(user => user.id == id);
 
     if (user) {
         user.favoriteMovies = user.favoriteMovies.filter(title => title !== movietitle);
