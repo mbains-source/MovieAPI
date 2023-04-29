@@ -256,7 +256,7 @@ app.get('/movies/:title', (req, res) => {
 app.post('/users/:id/:movieTitle', (req, res) => {
     const { id, movieTitle } = req.params;
 
-    let user = users.find(u => u.id == id);
+    let user = users.find(user => user.id == id);
 
     if (user) {
         user.favoriteMovies.push(movieTitle);
