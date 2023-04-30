@@ -4,6 +4,8 @@ bodyParser = require('body-parser'),
 morgan = require('morgan')
 const app = express();
 
+app.use(bodyParser.Json());
+
 //Declaring usersArray
 let users = [
     {
