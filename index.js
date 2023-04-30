@@ -224,7 +224,7 @@ app.put('/users/:id', (req, res) => {
     const { id } = req.params;
     const updatedUser = req.body;
 
-    let user = users.find(u => u.id == id);
+    let user = users.find(user => user.id == id);
 
     if (user) {
         user.name = updated.user.name;
