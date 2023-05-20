@@ -205,7 +205,7 @@ let movies = [
             name: 'Sergio Leone',
             bio: 'Sergio Leone was an Italian film director, producer, and screenwriter credited as the pioneer of the Spaghetti Western genre and widely regarded as one of the most influential directors in the history of cinema',
             Birthyear: '1929'
-            Deathyear:'1989'
+        
         },
         imageUrl: 'https://en.wikipedia.org/wiki/The_Good,_the_Bad_and_the_Ugly#/media/File:Good_the_bad_and_the_ugly_poster.jpg',
         year: '1966',
