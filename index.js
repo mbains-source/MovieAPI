@@ -115,7 +115,6 @@ let movies = [
             name: 'Sidney Lumet',
             bio: 'Sidney Lumet  was an American film director. ',
             Birthyear: '1924'
-            Deathyear:'2011'
         },
         imageUrl: 'https://en.wikipedia.org/wiki/12_Angry_Men_(1957_film)#/media/File:12_Angry_Men_(1957_film_poster).jpg',
         year: '1957',
