@@ -12,6 +12,11 @@ const express = require('express');
 
 app.use(bodyParser.json());
 
+let auth = require('./auth')(app);
+const passport = require('passport');
+require('./passport');
+
+
 //Declaring usersArray
 let users = [
     {
