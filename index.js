@@ -26,7 +26,7 @@ app.use(cors({
   }
 }));
 
-mongoose.connect('mongodb+srv://myflixDBadmin:careerfoundry@mantajbainscluster0.tqvsp3s.mongodb.net/?retryWrites=true&w=majority',{ useNewUrlParser: true, useUnifiedTopology: true });
+mongoose.connect( process.env.CONNECTION_URI, { useNewUrlParser: true, useUnifiedTopology: true });
 
 
 let auth = require('./auth')(app);
