@@ -26,6 +26,9 @@ app.use(cors({
   }
 }));
 
+mongoose.connect('mongodb+srv://myflixDBadmin:<password>@mantajbainscluster0.tqvsp3s.mongodb.net/?retryWrites=true&w=majority',{ useNewUrlParser: true, useUnifiedTopology: true });
+
+
 let auth = require('./auth')(app);
 const passport = require('passport');
 require('./passport');
