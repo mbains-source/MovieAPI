@@ -11,7 +11,7 @@ const { check, validationResult } = require("express-validator");
 const Movies = Models.Movie;
 const Users = Models.User;
 const Director = Models.Director;
-const Genres = Models.Genre;
+const Genre = Models.Genre;
 
 let allowedOrigins = [
   "https://myflixmantajbains.herokuapp.com",
