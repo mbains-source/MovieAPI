@@ -41,14 +41,7 @@ let auth = require("./auth")(app);
 const passport = require("passport");
 require("./passport");
 
-mongoose
-  .connect(process.env.CONNECTION_URI, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  })
-  .then(() => {
-    console.log("connected to db");
-  });
+mongoose.connect( process.env.CONNECTION_URI, { useNewUrlParser: true, useUnifiedTopology: true });
 
 app.get("/", (req, res) => {
   res.send("Welcome to myflixDB");
