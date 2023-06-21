@@ -51,7 +51,7 @@ mongoose
   });
 
 app.get("/", (req, res) => {
-  res.send("Welcome to FilmForge");
+  res.send("Welcome to myflixDB");
 });
 
 // GET: ALL MOVIES
