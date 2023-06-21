@@ -9,13 +9,13 @@
 "main": "server.js",
 "repository": {
   "type": "git",
-  "url": "git+https://github.com/mbains-source/movie_api.git"
+  "url": "git+https://github.com/mbains-source/MyFLix.git"
 },
 "keywords": [],
 "author": "",
 "license": "ISC",
 "bugs": {
-  "url": "https://github.com/mbains-source/movie_api/issues"
+  "url": "https://github.com/mbains-source/MyFlix/issues"
 },
 "homepage": "https://github.com/mbains-source/MyFlix#readme",
 "description": "",
@@ -32,7 +32,7 @@
   "mongodb": "^5.6.0",
   "mongoose": "^7.1.1",
   "morgan": "^1.10.0",
-  "node": "^19.8.1",
+  "node": "^20.0.0",
   "node-fetch": "^3.3.1",
   "passport": "^0.6.0",
   "passport-jwt": "^4.0.1",
