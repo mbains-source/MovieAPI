@@ -5,41 +5,40 @@
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
-
-"main": "server.js",
-"repository": {
-  "type": "git",
-  "url": "git+https://github.com/mbains-source/MyFlix.git"
-},
-"keywords": [],
-"author": "",
-"license": "ISC",
-"bugs": {
-  "url": "https://github.com/mbains-source/MyFlix/issues"
-},
-"homepage": "https://github.com/mbains-source/MyFlix#readme",
-"description": "",
-"dependencies": {
-  "bcrypt": "^5.1.0",
-  "body-parser": "^1.20.2",
-  "cors": "^2.8.5",
-  "express": "^4.18.2",
-  "express-validator": "^7.0.1",
-  "fetch": "^1.1.0",
-  "gitignore": "^0.7.0",
-  "jsonwebtoken": "^9.0.0",
-  "lodash": "^4.17.21",
-  "mongodb": "^5.6.0",
-  "mongoose": "^7.1.1",
-  "morgan": "^1.10.0",
-  "node": "^20.0.0",
-  "node-fetch": "^3.3.1",
-  "passport": "^0.6.0",
-  "passport-jwt": "^4.0.1",
-  "passport-local": "^1.0.0",
-  "uuid": "^9.0.0"
-},
-"devDependencies": {
-  "nodemon": "^2.0.22"
-}
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbains-source/MyFlix.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mbains-source/MyFlix/issues"
+  },
+  "homepage": "https://github.com/mbains-source/MyFlix#readme",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-validator": "^7.0.1",
+    "fetch": "^1.1.0",
+    "gitignore": "^0.7.0",
+    "jsonwebtoken": "^9.0.0",
+    "lodash": "^4.17.21",
+    "mongodb": "5.6",
+    "mongoose": "^7.1.1",
+    "morgan": "^1.10.0",
+    "node": "^20.0.0",
+    "node-fetch": "^3.3.1",
+    "passport": "^0.6.0",
+    "passport-jwt": "^4.0.1",
+    "passport-local": "^1.0.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
 }
