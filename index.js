@@ -48,7 +48,7 @@ app.get("/", (req, res) => {
 });
 
 // GET: ALL MOVIES
-app.get("/movies",  passport.authenticate("jwt", { session: false }),async (req, res) => {
+app.get("/movies",  async (req, res) => {
   try {
     const movies = await Movies.find({}).populate("director").populate("genre");
     res.status(200).json(movies);
