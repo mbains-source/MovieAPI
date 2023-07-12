@@ -16,7 +16,7 @@ const Genre = Models.Genre;
 let allowedOrigins = [
   "https://myflixmantajbains.herokuapp.com",
   "http://localhost:1234",
-  "myflixclientmantajbains.netlify.app"
+  "https://myflixclientmantajbains.netlify.app"
 ];
 
 app.use(
