@@ -1,4 +1,4 @@
-# MyFlix
+# Movie API
 CareerFoundry - Full Stack Immersion Achievement 2
 
 This repository contains a custom Application Programming Interface titled MyFlix developed
