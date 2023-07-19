@@ -13,11 +13,7 @@ const Users = Models.User;
 const Director = Models.Director;
 const Genre = Models.Genre;
 
-let allowedOrigins = [
-  "https://myflixmantajbains.herokuapp.com",
-  "http://localhost:1234",
-  "https://myflixclientmantajbains.netlify.app"
-];
+let allowedOrigins = ['http://localhost:8080', 'http://testsite.com', 'http://localhost:1234', 'https://myflixclientmantajbains.netlify.app'];
 
 app.use(
   cors({
@@ -31,8 +27,9 @@ app.use(
       }
       return callback(null, true);
     },
-  })
-);
+  }));
+
+
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(morgan("common"));
