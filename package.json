@@ -8,15 +8,15 @@
   "main": "server.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mbains-source/MyFlix.git"
+    "url": "git+https://github.com/mbains-source/MovieAPI.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mbains-source/MyFlix/issues"
+    "url": "https://github.com/mbains-source/MovieAPI/issues"
   },
-  "homepage": "https://github.com/mbains-source/MyFlix#readme",
+  "homepage": "https://github.com/mbains-source/MovieAPI#readme",
   "description": "",
   "dependencies": {
     "bcrypt": "^5.1.0",
