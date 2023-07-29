@@ -5,7 +5,7 @@
     "start": "node index.js",
     "dev": "nodemon index.js"
   },
-  "main": "server.js",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/mbains-source/MovieAPI.git"
@@ -16,9 +16,7 @@
   "bugs": {
     "url": "https://github.com/mbains-source/MovieAPI/issues"
   },
-  "engines": {
-    "node": "14.x"
-  },
+
   "homepage": "https://github.com/mbains-source/MovieAPI#readme",
   "description": "",
   "dependencies": {
