@@ -13,9 +13,14 @@ const Models = require('./models.js');
 const Movies = Models.Movie;
 const Users = Models.User;
 
-mongoose.connect(process.env.CONNECTION_URI, {
-    useNewUrlParser: true, 
-    useUnifiedTopology: true
+//mongoose.connect(process.env.CONNECTION_URI, {
+//    useNewUrlParser: true, 
+//    useUnifiedTopology: true
+//});
+
+mongoose.connect('mongodb://127.0.0.1/MantajBainsCluster0', {
+  useNewUrlParser: true,
+  useUnifiedTopology: true
 });
 
 const app = express();
@@ -26,7 +31,7 @@ let allowedOrigins = [
 ];
 
 //app uses CORS, set to allow requests from all origins
-//const cors = require('cors');
+const cors = require('cors');
 //app.use(cors());
 
 app.use(
